@@ -1,0 +1,67 @@
+/**
+ * The following styles get applied both on the front of your site
+ * and in the editor.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+.wp-block-post-content{
+	width: 1050px !important;
+	margin-left: auto !important;
+    margin-right: auto !important;
+}
+.wp-block-create-block-about-us-section {
+	width: 100%;
+	background-color: #fff;
+	color: #000;
+	padding: 2px;
+}
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image {
+	background: #f1f1f1;
+	float: right;
+	width: 100%;
+	min-height: 100px;
+	text-align: center;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image button {
+	margin-top: 30px;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image button.image-button {
+	margin: 0;
+	padding: 0;
+	display: block;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext .recipe-image img {
+	display: block;
+	z-index: 1;
+	position: relative;
+}
+
+.sectionTitle{
+	font-size: 3.5em;
+	font-weight: 700;
+	line-height: 40px;
+	text-align: center;
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext ul {
+	padding-left: 2.5em !important; /* Needs fix in Gutenberg. */
+}
+
+.wp-block-gutenberg-examples-example-05-recipe-card-esnext:after { 
+	content:""; 
+	clear:both; 
+	display: table; 
+}
+.row{
+	display: block;
+	width: 100%;
+	padding: 15px;
+}
+.col-6{
+	display: inline-block;
+	width: 45%;
+	padding: 15px;
+}
