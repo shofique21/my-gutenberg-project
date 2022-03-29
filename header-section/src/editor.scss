@@ -1,0 +1,25 @@
+/**
+ * The following styles get applied inside the editor only.
+ *
+ * Replace them with your own styles or remove the file completely.
+ */
+
+.wp-block-create-block-header-section {
+	border: 1px dotted #f00;
+}
+.imageStyle{
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 100%;
+	width: 100%;
+	position: initial;
+	background-size: cover;
+}
+.titleText{
+	color: #fff;
+	font-size: 3.5em;
+	font-weight: 700;
+}
+.headerContent{
+	color: #fff;
+}

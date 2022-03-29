@@ -1,0 +1,44 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "create-block/header-section",
+	"version": "0.1.0",
+	"title": "Header Section",
+	"category": "widgets",
+	"icon": "smiley",
+	"description": "Example static block scaffolded with Create Block tool.",
+	"supports": {
+		"html": false
+	},
+	"textdomain": "header-section",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css",
+	"attributes": {
+    	"mediaId": {
+    		"type": "number",
+    		"default": 0
+    	},
+    	"mediaUrl": {
+    		"type": "string",
+    		"default": ""
+    	},
+		"titleText": {
+			"type": "string",
+			"selector": "h1"
+		},
+		"myRichText":{
+			"type": "string",
+			"source": "html",
+			"selector": "p"
+		},
+		"menuText":{
+			"type":"string",
+			"default":""
+		},
+		"menuText2":{
+			"type":"string",
+			"default":""
+		}
+    }
+}
